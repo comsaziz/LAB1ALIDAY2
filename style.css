@@ -49,10 +49,13 @@ p {
 
 @media only screen and (max-width: 600px) {
     .item {
+        display: grid;
         grid-template-columns: 1fr; 
     }
 
     .item div {
+        grid-template-columns: 1fr; 
+        display: grid;
         margin-bottom: 20px; 
     }
 }
