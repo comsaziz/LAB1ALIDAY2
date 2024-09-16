@@ -3,7 +3,7 @@ fetch(url)
 .then((res) => res.json())
 .then(data => {
     let cont = document.getElementById('contiuner');
-    cont.classList.add('container'); 
+    cont.classList.add('item'); 
 
     data.map(element => {
         let itemDiv = document.createElement('div'); 
