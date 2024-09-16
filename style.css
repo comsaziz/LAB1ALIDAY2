@@ -48,7 +48,9 @@ p {
 
 @media only screen and (max-width: 600px) {
     .item {
+        display: grid;
         grid-template-columns: 1fr;
+        gap: 20px;
     }
     
     .item div {
