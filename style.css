@@ -57,6 +57,6 @@ p {
     .item div {
         grid-template-columns: 1fr; 
         display: grid;
-        margin-bottom: 20px; 
+       
     }
 }
